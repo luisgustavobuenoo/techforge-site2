@@ -1,0 +1,240 @@
+$primary: #05191e;
+$secundary: #3cbc1c;
+$tercery: #f1f1f1;
+$quarty: #000000;
+// Definindo as cores padrão do icone cart
+$cart-icon-color-default: #ffffff;
+$cart-icon-color-hover: #3cbc1c;
+
+// biblioteca 
+
+.biblioteca {
+  color: $tercery;
+  padding-bottom: 40px;
+  text-align: center;
+  transition: transform 0.3s;
+  &:hover{
+    color: $secundary;
+    transform: scale(1.1);
+  }
+}
+
+// cards
+.card h5 {
+  color: #f1f1f1;
+  &:hover{
+    color: $secundary;
+  }
+}
+.card p {
+  color: #f1f1f1;
+  &:hover{
+    color: $secundary;
+  }
+}
+
+.card {
+  background-color: #000000;
+  border-color: $tercery;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.card {
+  &:hover{
+    border-color:$secundary;
+  }
+}
+
+
+
+// carousel 
+.carousel-item{
+  margin-bottom: 40px;
+}
+
+
+
+
+// Estilo do ícone cart
+.cart-icon {
+    .btn {
+      &.btn-custom {
+        &.me-2 {
+          .fas.fa-shopping-cart {
+            color: $cart-icon-color-default; // Define a cor padrão como branco
+            transition: color 0.3s ease; // Adiciona uma transição suave para a mudança de cor
+          }
+        }
+      }
+    }
+  
+    // Efeito de hover para mudar a cor do ícone do carrinho de compras para verde
+    &:hover {
+      .btn.btn-custom.me-2 .fas.fa-shopping-cart {
+        color: $cart-icon-color-hover; // Muda a cor para verde quando o cursor está sobre o ícone
+      }
+    }
+  }
+
+
+
+// barra de navegação e cores dos links e botoes 
+.navbar-brand {
+  border-radius: solid 1px #3cbc1c;
+
+    & img{
+        width: 139px;
+        transition: transform 0.3s;
+        &:hover {
+            transform: scale(1.1); // Aumenta o tamanho da logo em 10% ao passar o mouse
+          }
+    }
+}
+
+.navbar {
+    & .nav-link {
+        font-size: 20px;
+    }
+}
+.nav-item {
+     a {
+        font-size: 20px;
+        color: $secundary !important;
+    }
+}
+
+.nav-link {
+    &:hover {
+      color: $tercery !important;
+    }
+  }
+
+  .nav-link {
+    &:hover {
+      color: $tercery !important;
+    }
+  }
+  
+  .btn-custom {
+    margin: 2.8px;
+    background-color:$secundary !important;
+    color: $tercery !important;
+    border: 1px solid $secundary !important;
+  
+    &:hover {
+      background-color: $tercery !important;
+      color: $secundary !important;
+      border: 1px solid $secundary !important;
+    }
+  }
+
+
+
+
+//   footer e afins 
+
+$footer-background-color: #000000;
+$footer-text-color: #f1f1f1;
+$footer-hover-color: #3cbc1c; // Verde para o hover
+$footer-section-padding: 20px;
+$footer-section-width: 25%;
+
+footer {
+  background-color: $footer-background-color;
+  color: $footer-text-color;
+  padding: $footer-section-padding 0;
+  width: 100%;
+
+  a, p, h3, ul, li {
+    color: $footer-text-color;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $footer-hover-color;
+    }
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+footer {
+  border-top: solid 1px #3cbc1c;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .footer-section {
+    width: $footer-section-width;
+    padding: $footer-section-padding;
+
+    &:not(.social-section) {
+      flex: 1;
+      max-width: $footer-section-width;
+    }
+  }
+
+  .footer-logo {
+    img {
+      max-width: 900px; // Defina a largura máxima da logo
+      transition: transform 0.3s;
+      &:hover {
+          transform: scale(1.1); // Aumenta o tamanho da logo em 10% ao passar o mouse
+        }
+    }
+  }
+
+  .social-section {
+    margin-left: auto; // Move a seção das redes sociais para a direita
+    width: auto;
+  }
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+    display: flex; // Usando flex para alinhar os ícones em linha
+  
+    li {
+      margin-right: 10px; // Espaço entre os ícones
+  
+      &:last-child {
+        margin-right: 0;
+      }
+  
+      a {
+        color: $footer-text-color;
+  
+        &:hover {
+          color: $footer-hover-color;
+        }
+  
+        i {
+          font-size: 24px; // Tamanho dos ícones
+        }
+      }
+    }
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
