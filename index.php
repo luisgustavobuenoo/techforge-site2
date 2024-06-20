@@ -89,7 +89,7 @@ if (file_exists($pagina)) {
         </div>
         <div class="footer-section social-section">
           <h3>Redes Sociais</h3>
-          <ul class="social-icons">
+          <ul class="social-icons" data-aos="flip-left">
             <li><a href="https://wa.me/5544999860439" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
             <li><a href="https://www.instagram.com/luisgustavob___/" target="_blank"><i
                   class="fa-brands fa-instagram"></i></a></li>

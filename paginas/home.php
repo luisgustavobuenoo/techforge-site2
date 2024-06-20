@@ -10,8 +10,6 @@ $dadosApi = json_decode($api);
     
     
     
-    
-    
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -72,7 +70,7 @@ $dadosApi = json_decode($api);
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">vesper</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
