@@ -31,6 +31,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="contato">contato</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jogos">jogos</a>
+          </li>
         </ul>
         <div class="cart-icon">
           <a href="#" class="btn btn-custom me-2">
@@ -44,7 +47,9 @@
   </nav>
 </header>
 
+
 <body class="bg-black">
+  
  <main>
  <?php
 

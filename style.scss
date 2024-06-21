@@ -240,4 +240,17 @@ footer {
     margin-top: 20px;
   }
 
-  
+
+
+  .btn {
+    border-color: #3cbc1c;
+    &:hover{
+      border-color: #f1f1f1;
+    }
+    background-color: #f1f1f1;
+    color: #3cbc1c;
+    &:hover{
+      background-color: #3cbc1c;
+      color: #f1f1f1;
+    }
+  }
