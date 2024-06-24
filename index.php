@@ -16,7 +16,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.php">
         <img src="images/logov.png" alt="logo site">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -29,10 +29,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contato">contato</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="jogos">jogos</a>
+            <a class="nav-link active" aria-current="page" href="quemsomos">Quem somos</a>
           </li>
         </ul>
         <div class="cart-icon">
@@ -84,13 +81,15 @@ if (file_exists($pagina)) {
    <div class="container">
       <div class="footer-info">
         <div class="footer-logo">
-          <img src="images/logov.png" alt="Logo">
+        <a class="navbar-brand" href="index.php">
+        <img src="images/logov.png" alt="logo site">
+      </a>
         </div>
         <div class="footer-section">
           <h3>Contato</h3>
-          <p>Endereço: Rua Principal, 123</p>
-          <p>Email: contato@example.com</p>
-          <p>Telefone: (00) 1234-5678</p>
+          <p>Endereço: Rua Interventor Manoel Ribas, n°2235</p>
+          <p>Email: luisgustavobueno1@gmail.com</p>
+          <p>Telefone: (44) 99986-0439</p>
         </div>
         <div class="footer-section social-section">
           <h3>Redes Sociais</h3>
@@ -106,7 +105,7 @@ if (file_exists($pagina)) {
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 Todos os direitos reservados.</p>
+        <p>&copy; 2024 Criado e Desenvolvido por Luis Gustavo. Transformando ideias em realidade digital. Todos os Direitos Reservados.</p>
       </div>
     </div>
   </footer>

@@ -13,13 +13,13 @@ $dadosApi = json_decode($api);
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/cardcarrosel.jpeg" class="d-block w-100" alt="...">
+          <img src="images/carrosel1.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/cardcarosel2.jpeg" class="d-block w-100" alt="...">
+          <img src="images/carrosel2.jpeg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/cardcarosel3.jpeg" class="d-block w-100" alt="...">
+          <img src="images/carrosel3.jpeg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -46,9 +46,8 @@ $dadosApi = json_decode($api);
             <img src="<?=$jogo->fotoCard ?>" class="card-img-top" alt="card1">
             <div class="card-body">
               <h5 class="card-title"><?=$jogo->title ?></h5>
-              <p class="card-text" data-bs-toggle="modal" data-bs-target="#exampleModal"><?=$jogo->description ?></p>
-              <a href="#" class="btn btn-custom me-2">R$ 250,00</a>
-              <a href="#" class="btn btn-custom me-2" >Demo
+                     <?=$jogo->description ?></p>
+              <a href="https://localhost/projetotech2/strong-piroshki-18db50.netlify.app" class="btn btn-custom me-2" > Demo
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                                 <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
                </svg> 
@@ -65,21 +64,3 @@ $dadosApi = json_decode($api);
 
       </div>
     </div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">vesper</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
