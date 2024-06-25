@@ -9,7 +9,7 @@ header("Access-Control-Allow-Origin: *");
         "id" => 1,
         "title" => "Suvival of the Undead",
         "description" => "Prepare-se para um mundo devastado pela praga dos mortos-vivos. Em Survival of the Undead, você enfrentará hordas intermináveis de zumbis sedentos.",
-        "linkJogo" => "https://localhost/projetotech2/strong-piroshki-18db50.netlify.app",
+        "linkJogo" => "https://localhost/projetotech2/projetozumbie/index.html",
    
         "fotoCard" => "http://localhost/projetotech2/images/card1.jpeg",
       );
@@ -19,7 +19,7 @@ header("Access-Control-Allow-Origin: *");
         "id" => 2,
         "title" => "Space Thunder",
         "description" => "embarque em uma jornada épica através das estrelas desconhecidas. Pilote sua nave espacial através de sistemas solares interligados, desafiando piratas espaciais.",
-        "linkJogo" => "http://localhost/projetotech2/",
+        "linkJogo" => "http://localhost/projetotech2/SpaceThunder/index.html",
    
         "fotoCard" => "http://localhost/projetotech2/images/card2.jpeg",
       );
