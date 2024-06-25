@@ -24,7 +24,7 @@
                 <img src="images/luisg.jpg" class="card-img-top" alt="Foto de Luis Gustavo">
                 <div class="card-body">
                     <h5 class="card-title">Luis Gustavo</h5>
-                    <p class="card-text">Algum texto de exemplo sobre Luis Gustavo.</p>
+                    <p class="card-text">"Explorando novos horizontes em jogos! Sou Luis Gustavo, estudante de Análise e Desenvolvimento de Sistemas. Aqui, você encontra os melhores games selecionados com paixão e conhecimento. Venha descobrir a diversão comigo!"</p>
                     <div class="footer-section social-section">
                         <h3>Redes Sociais</h3>
                         <ul class="social-icons" data-aos="flip-left">
@@ -42,7 +42,7 @@
                 <img src="images/thiago.jpg" class="card-img-top" alt="Foto de Thiago">
                 <div class="card-body">
                     <h5 class="card-title">Thiago</h5>
-                    <p class="card-text">Algum texto de exemplo sobre Thiago.</p>
+                    <p class="card-text">"Embarque numa jornada de jogos com Thiago! Estudante de Análise e Desenvolvimento de Sistemas, Thiago seleciona os melhores títulos para você. Descubra a emoção dos games conosco!"</p>
                     <div class="footer-section social-section">
                         <h3>Redes Sociais</h3>
                         <ul class="social-icons" data-aos="flip-left">
@@ -60,7 +60,7 @@
                 <img src="images/anonimo.jpeg" class="card-img-top" alt="Foto de Thiago">
                 <div class="card-body">
                     <h5 class="card-title">Anônimo</h5>
-                    <p class="card-text">Algum texto de exemplo sobre Thiago.</p>
+                    <p class="card-text">"Explore uma nova era de diversão com o projeto de venda de jogos liderado por nosso talentoso desenvolvedor. Infelizmente, devido a circunstâncias imprevistas, ele precisou se afastar temporariamente. Estaremos de volta em breve com mais novidades emocionantes!"</p>
                     <div class="footer-section social-section">
                         <h3>Redes Sociais</h3>
                         <ul class="social-icons" data-aos="flip-left">
@@ -75,6 +75,7 @@
         </div>
     </div>
 </div>
+
 
 </main>
 
