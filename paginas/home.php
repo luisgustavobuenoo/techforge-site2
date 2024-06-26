@@ -1,5 +1,5 @@
 <?php
-$api = file_get_contents("http://localhost/projetotech2/api/card.php");
+$api = file_get_contents("https://vespertechforge.000webhostapp.com//api/card.php");
 $dadosApi = json_decode($api);
 
  foreach ($dadosApi as$jogo){
